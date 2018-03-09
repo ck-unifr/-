@@ -19,7 +19,7 @@
 
 步骤三
 训练一个距离检测器,用于给出两张图片的相似程度.
-方法:使用 [Siamese Networks](hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e).在传统的classification问题中,通常是每一类我们有很多的训练样本.但是有些情况下,例如人脸识别,我们有很多类别,但是没一个类别的样本很少.对于这样的问题解决方案就是使用[Siamese Networks](hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e). 具体训练是对于我们数据库里有的图片,用和它对应的盗版图片和其他的图片训练一个Siamese Network.最终目的是要让任意一张图片和它所对应的盗版图片距离很小,和其他的图片距离很大.
+方法:使用 [Siamese Networks](hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e).在传统的classification问题中,通常是每一类我们有很多的训练样本.但是有些情况下,例如人脸识别,我们有很多类别,但是每一个类别的样本很少.对于这样的问题解决方案就是使用[Siamese Networks](hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e). 具体训练是对于我们数据库里有的图片,用和它对应的盗版图片和其他的图片训练一个Siamese Network.最终目的是要让任意一张图片和它所对应的盗版图片距离很小,和其他的图片距离很大.
 
 
 步骤四:
